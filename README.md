@@ -1,5 +1,7 @@
 # Smart Allowance Manager (HackMoney)
 
+Built during ETHGlobal HackMoney 2026
+
 A simple security-focused web app that helps users check, approve, revoke, and flag risky ERC-20 allowances for common DeFi spenders.
 
 ## Problem
@@ -18,17 +20,24 @@ Smart Allowance Manager makes approvals visible and reversible.
 - Risk labels (LOW / MEDIUM / HIGH)
 - Add custom tokens
 
+## Tech Stack
+- Next.js  
+- ethers v6  
+- MetaMask  
+- JavaScript / TypeScript  
+- Vercel (deployment)
+
 ## How it works
 - Reads allowances using `allowance(owner, spender)`
 - Writes approvals using `approve(spender, amount)`
 - Built with ethers v6 + MetaMask
 
 ## Demo flow
-1. Connect wallet
-2. Select spender
-3. Refresh allowances
-4. Approve token
-5. Revoke approval
+1. Connect wallet  
+2. Select spender  
+3. Refresh allowances  
+4. Approve token  
+5. Revoke approval  
 
 ## Run locally
 ```bash
