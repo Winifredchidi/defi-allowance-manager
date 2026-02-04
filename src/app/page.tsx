@@ -887,14 +887,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="mt-6 rounded-lg border border-zinc-200 bg-white p-5 shadow-sm">
-          <h3 className="text-sm font-semibold text-zinc-900">Hackathon explanation (simple)</h3>
-          <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-zinc-700">
-            <li>Allowance = permission a spender has to move your tokens.</li>
-            <li>Users can choose popular spenders (routers/Permit2) or paste a custom spender address.</li>
-            <li>The tool flags risky approvals (unlimited/huge allowances) and lets users revoke them quickly.</li>
-          </ul>
-        </div>
+       
       </div>
     </main>
   )
